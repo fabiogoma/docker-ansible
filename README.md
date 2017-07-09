@@ -1,5 +1,5 @@
 # Why Docker and Ansible Laboratory
-Everytime I do automation, I usually goes with [Chef](https://www.chef.io/) because this is the tool I have more experience, although, I'm not passionate about any specific tool and also I get no money from the vendors to advertise one or another. Now I decided it's time to learn a new tool and the [Puppet](https://puppet.com/) architecture is quite similar to Chef because they both are pull based and I was decided to learn a new push based tool. That's why I chose [Ansible](https://www.ansible.com/)
+Everytime I do automation, I usually goes with [Chef](https://www.chef.io/) because this is the tool I have more experience, although, I'm not passionate about any specific tool and also I get no money from the vendors to advertise one or another. Now I decided it's time to learn a new tool and the [Puppet](https://puppet.com/) architecture is quite similar to Chef because they both are pull based and I decided to learn a new push based tool. That's why I chose [Ansible](https://www.ansible.com/)
 
 If you want to go deeper with Ansible, I would recommend to take a look in those links below:
 
