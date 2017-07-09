@@ -1,4 +1,15 @@
 ---
 - name: Install docker
   yum: name=docker state=present
+
+- name: Create docker group
+  group:
+    name: docker
+    state: present
+
+- name: Add vagrant to docker group
+  user:
+    name: vagrant
+    groups: docker
+    append: yes
   notify: Restart docker service
