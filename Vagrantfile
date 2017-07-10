@@ -13,7 +13,7 @@ Vagrant.configure('2') do |config|
     config.vm.define box.to_s do |node|
       node.vm.hostname = box.to_s
       node.vm.provision 'ansible' do |ansible|
-        ansible.limit = 'all'
+        ansible.limit = box.to_s
         ansible.playbook = 'provisioning/playbook.yml'
       end
     end
